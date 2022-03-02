@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -15,12 +16,26 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .hire-button{
     text-decoration: none;
-    background-image: linear-gradient(to right,rgb(245, 167, 22), rgb(253, 227, 140));
+    background-image: linear-gradient(to right,rgb(22, 126, 245), rgb(140, 217, 253));
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
 
+}
+.top-banner{
+    background-image: url(/images/top-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.dream-big-img{
+    width: 75%;
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
