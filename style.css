@@ -9,7 +9,7 @@ h1{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
 }
 
@@ -38,4 +38,38 @@ section{
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-year{
+    color: orange;
+}
+.experience-item{
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgb(241, 241, 241);
+    
+}
+
+.experience-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experience-border-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(245, 146, 110), rgb(238, 82, 55));
+    border-image-slice: 1;
+}
+.experience-border-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 30px;
 }
